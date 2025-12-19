@@ -1,7 +1,7 @@
 # CSS Assignment 2: Responsive Website Layout
 
 ## Overview
-This is the second assignment in the Web and App Development course from SMIT (Saylani Mass IT Training) under the guidance of Muhammad Umair Ahmad. The assignment focuses on creating a responsive website layout using HTML and CSS. The website includes multiple sections such as a hero banner, statistics display, mission statement, image showcase, and footer.
+This is the second assignment of css in the Web and App Development course from SMIT (Saylani Mass IT Training) under the guidance of Muhammad Umair Ahmad. The assignment focuses on creating a responsive website layout using HTML and CSS. The website includes multiple sections such as a hero banner, statistics display, mission statement, image showcase, and footer.
 
 ## Features
 - **Hero Section**: Introduction with text and image, featuring a call-to-action button
