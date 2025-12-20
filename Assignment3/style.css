@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 0 300px;
+    border: 1px solid blue;
+}
+header > div > img{
+    width: 80px;
+    padding-top: 13px;
+}
+#SMIT{
+    width: 450px;
+    display: inline-block;
+
+}
+#Anchor{
+    height: 60px;
+    width: 440px;
+    border: 1px solid black;
+    display: inline-block;
+    line-height: 60px;
+}
+#Anchor > a{
+    text-decoration: none;
+    padding-top: 4px;
+    padding-left: 20px;
+}
