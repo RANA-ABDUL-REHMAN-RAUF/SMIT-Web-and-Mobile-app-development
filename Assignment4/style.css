@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(1.jpg);
     color: white;
-    
+    background-size: cover;
 }
 
 .header {
@@ -24,7 +24,7 @@ body {
     color: #f57631;
 }
 
-.font {
+.font-P {
     font-size: 34px;
 }
 
@@ -74,7 +74,7 @@ body {
     justify-items: center;
     min-width: 50%;
     background-color: #000000c0;
-    height: 200px;
+    min-height: 250px;
     border-radius: 7px;
 }
 #web{
@@ -122,4 +122,14 @@ body {
 .font{
     font-size: 10px;
     text-align: center;
+}
+.awesome{
+    display: flex;
+    justify-content: center;
+}
+.chad{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
