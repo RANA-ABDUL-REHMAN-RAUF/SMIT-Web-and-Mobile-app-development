@@ -11,8 +11,7 @@ This is a UI-only implementation of a web design and development course website.
 - Navigation menu (Home, About, Service, Design, Contact)
 
 ## Website Link
-<!-- Add your deployed website link here -->
-**Live Website:** [Add your website URL here]
+**Live Website:** [MY Praroz](https://praroz-aman.surge.sh/)
 
 ## Reference Design Image
 This project was created based on the following reference image provided by the instructor:
@@ -32,11 +31,6 @@ Assignment4/
 ├── README.md
 └── 1.jpg
 ```
-
-## Setup Instructions
-1. Clone or download this repository
-2. Open `index.html` in a web browser
-3. No additional dependencies required
 
 ## Note
 This is an educational assignment project. The design is based on a reference image provided by the instructor. This is a UI-only implementation with no backend functionality.
