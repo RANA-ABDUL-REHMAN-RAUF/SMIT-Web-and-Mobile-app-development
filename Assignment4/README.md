@@ -1,29 +1,29 @@
 # Assignment 4 - Web Design & Development Course Website
 
 ## Project Description
-This is a UI-only implementation of a web design and development course website. This project was created as an assignment based on a reference design provided by the instructor. **Note: This is a static UI with no backend functionality.**
+Static single-page design for a fictional web design & development course. Built from a provided reference image; all interactions (login, search, social links) are UI-only with no backend behavior.
 
 ## Features (UI Only)
-- Static web design layout
-- Login form interface (UI only, no functionality)
-- Social media icons (Facebook, Instagram, Twitter, Google, Skype)
-- Search bar interface (UI only)
-- Navigation menu (Home, About, Service, Design, Contact)
+- Hero section with course branding and CTA
+- Login form mockup
+- Social media icon row (Facebook, Instagram, Twitter, Google, Skype)
+- Search bar interface
+- Navigation menu links: Home, About, Service, Design, Contact
 
 ## Website Link
-**Live Website:** [MY Praroz](https://praroz-aman.surge.sh/)
+**Live Preview:** [MY Praroz](https://praroz-aman.surge.sh/)
 
-## Reference Design Image
-This project was created based on the following reference image provided by the instructor:
+## Reference
+Design follows the instructor-provided mock:
 
 ![Reference Design Image](https://i.ytimg.com/vi/i0oWkRv4S78/maxresdefault.jpg)
 
 ## Technologies Used
 - HTML5
 - CSS3
-- Font Awesome Icons
+- Font Awesome icons
 
-## Files Structure
+## File Structure
 ```
 Assignment4/
 ├── index.html
@@ -32,6 +32,7 @@ Assignment4/
 └── 1.jpg
 ```
 
-## Note
-This is an educational assignment project. The design is based on a reference image provided by the instructor. This is a UI-only implementation with no backend functionality.
+## Notes
+- UI only; forms and links are non-functional.
+- Images and assets are local to the assignment folder.
 

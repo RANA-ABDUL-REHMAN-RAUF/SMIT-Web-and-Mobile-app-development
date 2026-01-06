@@ -1,5 +1,5 @@
 .background{
-    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/architect.jpg");
+    background-image: url("./images/architect.jpg");
     height: 65%;
     background-size: cover;
 }
@@ -17,42 +17,42 @@ header {
     filter: grayscale (0.75);
     }
 #Summer1{
-    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house5.jpg");
+    background-image: url("./images/house5.jpg");
     background-size: cover;
     height: 200px;
 }
 #brick1{
-    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house2.jpg");
+    background-image: url("./images/house2.jpg");
     background-size: cover;
     height: 200px;
 }
 #renovate1{
-    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house3.jpg");
+    background-image: url("./images/house3.jpg");
     background-size: cover;
     height: 200px;
 }
 #barn1{
-    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house4.jpg");
+    background-image: url("./images/house4.jpg");
     background-size: cover;
     height: 200px;
 }
 #Summer2{
-    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house2.jpg");
+    background-image: url("./images/house2.jpg");
     background-size: cover;
     height: 200px;
 }
 #brick2{
-    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house5.jpg");
+    background-image: url("./images/house5.jpg");
     background-size: cover;
     height: 200px;
 }
 #renovate2{
-    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house4.jpg");
+    background-image: url("./images/house4.jpg");
     background-size: cover;
     height: 200px;
 }
 #barn2{
-    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house3.jpg");
+    background-image: url("./images/house3.jpg");
     background-size: cover;
     height: 200px;
 }
