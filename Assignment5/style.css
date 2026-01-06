@@ -1,0 +1,79 @@
+.background{
+    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/architect.jpg");
+    height: 65%;
+    background-size: cover;
+}
+.background-opacity{
+    background-color: rgba(0, 0, 0, 0.665);
+}
+header {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#hero span {
+     background-color: rgba(0, 0, 0, 0.75);
+    padding: 8px 16px;   
+    }
+.grayscale {
+    filter: grayscale (0.75);
+    }
+#Summer1{
+    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house5.jpg");
+    background-size: cover;
+    height: 200px;
+}
+#brick1{
+    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house2.jpg");
+    background-size: cover;
+    height: 200px;
+}
+#renovate1{
+    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house3.jpg");
+    background-size: cover;
+    height: 200px;
+}
+#barn1{
+    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house4.jpg");
+    background-size: cover;
+    height: 200px;
+}
+#Summer2{
+    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house2.jpg");
+    background-size: cover;
+    height: 200px;
+}
+#brick2{
+    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house5.jpg");
+    background-size: cover;
+    height: 200px;
+}
+#renovate2{
+    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house4.jpg");
+    background-size: cover;
+    height: 200px;
+}
+#barn2{
+    background-image: url("/SMIT-Web-and-Mobile-app-development/Assignment5/images/house3.jpg");
+    background-size: cover;
+    height: 200px;
+}
+.button{
+    background-color: #cfcece;
+}
+.button:hover{
+    background-color: #1d1b1c;
+    color: white;
+    transition: 0.3s;
+}
+.hieght{
+    height: 100px;
+}
+header {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#hero span {
+     background-color: rgba(0, 0, 0, 0.75);
+    padding: 8px 16px;   
+    }
+.grayscale {
+    filter: grayscale (0.75);
+    }
