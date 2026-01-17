@@ -1,4 +1,4 @@
-# Assignment 4 - Web Design & Development Course Website
+# Assignment 2 - PraRoz Web Design & Development Course Website
 
 ## Project Description
 Static single-page design for a fictional web design & development course. Built from a provided reference image; all interactions (login, search, social links) are UI-only with no backend behavior.
@@ -25,7 +25,7 @@ Design follows the instructor-provided mock:
 
 ## File Structure
 ```
-Assignment4/
+Assignment_2/
 ├── index.html
 ├── style.css
 ├── README.md

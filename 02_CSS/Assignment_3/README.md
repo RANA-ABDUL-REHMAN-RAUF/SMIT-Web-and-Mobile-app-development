@@ -1,4 +1,4 @@
-# Assignment 5 - BR Architects Landing Page
+# Assignment 3 - BR Architects Landing Page
 
 ## Project Description
 A responsive, static, single-page layout for an architecture studio inspired by the **BR Architects** template. The page showcases highlighted projects, introduces team members, and provides a simple contact form with an embedded location image. This is a **responsive design assignment** built with Bootstrap 5, ensuring optimal viewing across all device sizes (mobile, tablet, and desktop). This is a UI-only assignment with no backend logic.
@@ -22,9 +22,10 @@ A responsive, static, single-page layout for an architecture studio inspired by 
 
 ## File Structure
 ```
-Assignment5/
+Assignment_3/
 ├── index.html
 ├── style.css
+├── README.md
 └── images/
     ├── architect.jpg
     ├── house2.jpg
