@@ -147,7 +147,7 @@ I prioritized accessibility, correctness, and maintainability. Below are concret
 - Tell me which changes you want me to commit first and I will prepare the updated files or a patch.
 
 ## Credit
-- Project created as part of SMIT / PraRoz Web Design & Development course exercises.
+- Project created as part of SMIT  Web & App Development course exercises.
 
 ## License
 Use for learning and personal projects. No formal license attached.
