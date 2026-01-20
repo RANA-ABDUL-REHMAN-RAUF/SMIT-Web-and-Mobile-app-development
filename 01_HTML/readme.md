@@ -1,54 +1,55 @@
-# Assignment 1 — SMIT Web & Mobile App Development (Course Website)
+# Assignment 1: Basic HTML Website
 
 ## Overview
-This repository contains a small static website created as part of the SMIT  Web Design & Development exercises. It is a simple multi-page static site (UI-only) demonstrating basic HTML layout, images, media, forms and navigation.
 
-## Website Link
-**Live Preview:** [SMIT-1](https://assignment-smit-1.surge.sh/index.html)
+This project is the first assignment for the SMIT Web and Mobile App Development course. It is a simple, static, multi-page website designed to demonstrate a fundamental understanding of HTML5. The site includes various pages to showcase different HTML elements, such as text formatting, lists, images, media (audio and video), and forms.
 
-## What I reviewed
-I inspected all HTML files in `01_HTML/` and the media files referenced. The site is static with several pages and mock UI elements (login form, contact form, gallery, media player). No backend code or form-processing scripts are present.
+## Pages Included
 
-## Pages (located in 01_HTML/)
-- index.html — Home page (headings, lists, definition list examples)
-- about.html — About / chairman message
-- gallery.html — Images and `<figure>/<figcaption>` examples
-- media.html — Audio and video examples (uses local Media files)
-- contact.html — Contact form mockup (static)
-- login.html — Login form mockup
-- register.html — Register page (placeholder)
+-   `index.html`: The main landing page, which introduces the website and includes examples of headings, paragraphs, and lists.
+-   `about.html`: An "About Us" page containing descriptive text.
+-   `gallery.html`: A gallery page that displays a collection of images.
+-   `media.html`: A page that embeds and plays audio and video files.
+-   `contact.html`: A page with a contact form for user inquiries.
+-   `login.html`: A page with a user login form.
+-   `register.html`: A page with a user registration form.
 
-## File structure (representative)
+## Key Features and HTML Concepts
+
+-   **Navigation**: A consistent header with a navigation menu is present on all pages, allowing users to move between the different sections of the site. The navigation is built using an HTML `<table>`.
+-   **Media**: The website uses `<img>`, `<audio>`, and `<video>` tags to embed multimedia content.
+-   **Forms**: The `contact.html`, `login.html`, and `register.html` pages demonstrate the use of HTML forms with various input types.
+-   **Styling**: Basic styling is applied using inline CSS and internal stylesheets within the `<style>` tag in each HTML file.
+-   **File Paths**: The project uses relative file paths to link to other pages and media assets.
+
+## File Structure
+
 ```
-SMIT-Web-and-Mobile-app-development/
-├── 01_HTML/
-│   ├── index.html
-│   ├── about.html
-│   ├── gallery.html
-│   ├── media.html
-│   ├── contact.html
-│   ├── login.html
-│   └── register.html
-├── Media/
-│   ├── images.jpeg
-│   ├── download.jpeg
-│   ├── umsir.mp4
-│   └── t.mp3
-└── README.md
+01_HTML/
+├── index.html
+├── about.html
+├── gallery.html
+├── media.html
+├── contact.html
+├── login.html
+├── register.html
+└── Media/
+    ├── saylani-welfare-international-trust-seeklogo.png
+    ├── ... (other images and media files)
 ```
 
-## Technologies used
-- HTML5 (static)
-- Basic inline CSS (present in each HTML file)
-- Browser-native audio/video controls
+## How to View
 
-## How to view locally
-1. Clone or download the repository.
-2. Open `01_HTML/index.html` (or any page) in a web browser. No server required — static files only.
-3. Ensure the `Media/` folder is present and images/media are not renamed so they load correctly.
+To view the website, simply open any of the `.html` files in a web browser. No web server is required as it is a fully static site.
+
+## Live Demo
+
+You can view a live version of the website here: [assignment-smit-1](https://assignment-smit-1.surge.sh/index.html)
 
 ## Credit
-- Project created as part of SMIT  Web & App Development course exercises.
+
+- Project created by **Rana Abdul Rehman Rauf** as part of the SMIT Web & App Development course exercises.
 
 ## License
-Use for learning and personal projects. No formal license attached.
+
+Use for learning and personal projects. This project is created as part of an educational curriculum and is not intended for commercial use.

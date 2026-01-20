@@ -16,7 +16,7 @@ This is the first assignment of CSS in the Web and App Development course from S
 - CSS3 (Flexbox, Grid, Media Queries)
 
 ## Live Demo
-View the live version of this assignment at: [smit-aman-assignment3.surge.sh](https://smit-aman-assignment3.surge.sh)
+View the live version of this assignment at: [smit-aman-assignment3](https://smit-aman-assignment3.surge.sh)
 
 ## Files Structure
 - `index.html` - Main HTML structure
