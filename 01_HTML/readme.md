@@ -3,8 +3,8 @@
 ## Overview
 This repository contains a small static website created as part of the SMIT  Web Design & Development exercises. It is a simple multi-page static site (UI-only) demonstrating basic HTML layout, images, media, forms and navigation.
 
-Live demo (deployed):
-- https://assignment-smit-1.surge.sh/index.html
+## Website Link
+**Live Preview:** [SMIT-1](https://assignment-smit-1.surge.sh/index.html)
 
 ## What I reviewed
 I inspected all HTML files in `01_HTML/` and the media files referenced. The site is static with several pages and mock UI elements (login form, contact form, gallery, media player). No backend code or form-processing scripts are present.
