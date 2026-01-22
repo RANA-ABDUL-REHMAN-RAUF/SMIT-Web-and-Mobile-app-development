@@ -14,7 +14,7 @@ This reference image shows the design and layout of the assignment interface, fe
 
 ## 🌐 Live Demo
 
-**Live URL:** [https://aman-js-ch2.netlify.app/](https://aman-js2.netlify.app/)
+**Live URL:** [https://aman-js2.netlify.app/](https://aman-js2.netlify.app/)
 
 ## 📋 Features
 
