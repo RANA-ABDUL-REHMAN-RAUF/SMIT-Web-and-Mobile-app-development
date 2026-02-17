@@ -5,13 +5,16 @@
 This assignment demonstrates JavaScript concepts from chapters 21-25, focusing on **strings** and common **string methods**, along with basic **DOM manipulation**.  
 It provides an interactive UI with one input field and multiple buttons to transform text and work with a simple cities list.
 
+## 🌐 Live Demo
+
+**Live URL:** [`https://aman-js4.netlify.app/`](https://aman-js4.netlify.app/)
+
 ## 🖼️ Reference Image
 
-> Place the provided reference screenshot inside a `refrence/` (or `reference/`) folder and update the image path below if needed.
 
-```md
+
 ![Assignment 4 Reference](./refrence/js-4.jpeg)
-```
+
 
 ## 📋 Features
 
@@ -47,7 +50,7 @@ The application includes buttons that demonstrate string methods and DOM updates
 
 7. **Find this word** (`findThisWord()`)  
    - If empty, shows Toastify error.  
-   - Otherwise, checks if the entered value exists in `allCities` using `includes()` and prints `true/false`.
+   - Otherwise, checks if the entered value exists in the `allCities` list using `includes()` and prints `true/false`.
 
 8. **Replace this word** (`replaceThisWord()`)  
    - If empty, shows Toastify error.  
