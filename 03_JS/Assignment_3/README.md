@@ -6,12 +6,7 @@ This assignment demonstrates key JavaScript concepts from chapters 15-20, focusi
 It provides an interactive interface with a single input field and multiple buttons to practice updating the page dynamically.
 
 ## 🖼️ Reference Image
-
-> Place the provided reference screenshot inside a `refrence/` (or `reference/`) folder and update the image path below if needed.
-
-```md
 ![Assignment 3 Reference](./refrence/js-3.jpeg)
-```
 
 *Reference design showing the expected layout of the assignment interface (input, buttons, and output areas).*
 
