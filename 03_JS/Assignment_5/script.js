@@ -77,7 +77,16 @@ let controllingLength = ()=>{
         toastError("Give a limit.")
         return
     }
-    let num = Number(input())
-    let Fnum = num.toFixed(2)
+    let num = 25.12345
+    let Fnum = num.toFixed(input())
     output.innerHTML = Fnum
+}
+let calculateGST = ()=>{
+    if (!input()) {
+        toastError("Give a number.")
+        return
+    }
+    let num = Number(input())
+    let GST = num * (18/100)/100
+    output.innerHTML = GST
 }
