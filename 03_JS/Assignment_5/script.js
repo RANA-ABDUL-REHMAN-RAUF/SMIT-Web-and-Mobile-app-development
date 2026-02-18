@@ -72,3 +72,12 @@ let convertingString= ()=>{
     console.log(Cnum);
     console.log(typeof Cnum);
 }
+let controllingLength = ()=>{
+    if (!input()) {
+        toastError("Give a limit.")
+        return
+    }
+    let num = Number(input())
+    let Fnum = num.toFixed(2)
+    output.innerHTML = Fnum
+}
