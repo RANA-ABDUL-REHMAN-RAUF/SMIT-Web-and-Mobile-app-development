@@ -42,6 +42,22 @@ This assignment introduces client-side scripting with JavaScript to create inter
     -   An interactive web app demonstrating core JavaScript concepts from chapters 1-7, including alerts, variables, data types, arithmetic operations, and basic DOM manipulation. The UI is built with Bootstrap.
     -   **Live Demo:** [aman-js.netlify.app](https://aman-js.netlify.app/)
 
+-   **Assignment 2: JavaScript Conditionals & Prompts**
+    -   Explores conditional logic, prompts, and string concatenation (chapters 8-14) with interactive `if-else` examples.
+    -   **Live Demo:** [aman-js2.netlify.app](https://aman-js2.netlify.app/)
+
+-   **Assignment 3: JavaScript Arrays, Loops & DOM**
+    -   Focuses on arrays, loops, and DOM updates (chapters 15-20), including city list operations and table generation.
+    -   **Live Demo:** [aman-js3.netlify.app](https://aman-js3.netlify.app/)
+
+-   **Assignment 4: JavaScript Strings & Methods**
+    -   Covers common string methods and formatting (chapters 21-25) with Toastify-based validation and feedback.
+    -   **Live Demo:** [aman-js4.netlify.app](https://aman-js4.netlify.app/)
+
+-   **Assignment 5: Numbers, Integers & Decimals**
+    -   Practices numeric operations and `Math` methods (chapters 26-30): rounding, random values, dice, password generation, controlling decimal length, and GST calculation.
+    -   **Live Demo:** [aman-js5.netlify.app](https://aman-js5.netlify.app/)
+
 ## 🛠️ Technologies Used
 
 -   **HTML5**

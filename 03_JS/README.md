@@ -18,6 +18,24 @@ This assignment explores conditional logic, user input with prompts, and string 
 - **Live Demo:** [https://aman-js2.netlify.app/](https://aman-js2.netlify.app/)
 - **Topics Covered:** String Concatenation, Prompts, `if-else` and `else if` statements, Nested `if` statements, Comparison Operators, Logical Operators.
 
+### Assignment 3 - JavaScript Arrays, Loops & DOM (Chapters 15-20)
+This assignment focuses on arrays, array methods, and `for` loops, along with basic DOM manipulation. Users can print and add cities to an array, and generate a multiplication table dynamically.
+
+- **Live Demo:** [https://aman-js3.netlify.app/](https://aman-js3.netlify.app/)
+- **Topics Covered:** Arrays, `push()`, `for` loops, DOM updates with `innerHTML` / `innerText`, Toastify-based validation.
+
+### Assignment 4 - JavaScript Strings & Methods (Chapters 21-25)
+This assignment demonstrates common string methods and text formatting. It includes converting text to lowercase/uppercase/capitalized, replacing characters, working with a list of cities, and providing feedback via Toastify.
+
+- **Live Demo:** [https://aman-js4.netlify.app/](https://aman-js4.netlify.app/)
+- **Topics Covered:** `toLowerCase()`, `toUpperCase()`, `charAt()`, `slice()`, `replace()`, `includes()`, arrays, DOM manipulation, Toastify notifications.
+
+### Assignment 5 - Numbers, Integers & Decimals (Chapters 26-30)
+This assignment practices numeric operations and `Math` methods. It rounds numbers, generates random numbers and dice values, creates strong passwords, controls decimal length with `toFixed()`, and calculates GST.
+
+- **Live Demo:** [https://aman-js5.netlify.app/](https://aman-js5.netlify.app/)
+- **Topics Covered:** `Math.round()`, `Math.ceil()`, `Math.floor()`, `Math.random()`, string-to-number conversion, `toFixed()`, percentage/GST calculations, input validation.
+
 ## 🛠️ Technologies Used
 
 - **HTML5** - Structure and markup
