@@ -47,3 +47,20 @@ let randomNum = ()=>{
 let throwADice = () => {
     output.innerHTML = Math.floor((Math.random() * 6)+1)
 }
+let generateAStrongPass = () => {
+    if (!input()) {
+        toastError("Give a limit.")
+        return
+    }
+    let limit = input()
+    let pass = ""
+    let cAlphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    let alphabets = cAlphabets.toLocaleLowerCase()
+    let symbol = "!@#$%^&*()"
+    let num = "1234567890"
+    let total = cAlphabets + alphabets + symbol + num;
+    for (let i = 0;i < limit;i++) {
+        pass += total.charAt(Math.random() * total.length) 
+    }
+    output.innerHTML = pass
+}
