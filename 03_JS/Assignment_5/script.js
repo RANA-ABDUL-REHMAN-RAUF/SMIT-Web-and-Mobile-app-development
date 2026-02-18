@@ -21,24 +21,29 @@ let toastError=(alert)=>{
 let output=document.querySelector("#Output");
 let input=()=> document.getElementById("inputText").value;
 let roundANum = () => {
-    if (input() == "") {
+    if (!input()) {
         toastError("Please enter a number.")
         return
     }
     output.innerHTML = Math.round(input())
 }
 let ceilANum= ()=>{
-    if (input() == "") {
+    if (!input()) {
         toastError("Please enter a number.")
         return
     }
     output.innerHTML = Math.ceil(input())
 }
 let floorANum = ()=>{
-    if (input() == "") {
+    if (!input()) {
         toastError("Please enter a number.")
         return
     }
     output.innerHTML = Math.floor(input())
 }
-
+let randomNum = ()=>{
+    output.innerHTML = Math.round(Math.random() * 100)
+}
+let throwADice = () => {
+    output.innerHTML = Math.floor((Math.random() * 6)+1)
+}
