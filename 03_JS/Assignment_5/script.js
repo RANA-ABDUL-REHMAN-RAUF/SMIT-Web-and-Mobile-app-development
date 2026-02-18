@@ -19,13 +19,11 @@ let toastError=(alert)=>{
       }).showToast();
 }
 let output=document.querySelector("#Output");
-let input=document.querySelector("#inputText").value;
+let input=()=> document.getElementById("inputText").value;
 let roundANum = () => {
-    if (!input) {
-        console.log(input)
+    if (input() == "") {
         toastError("Please enter a number.")
         return
     }
-    output.innerHTML = Math.round( Number(input))
-    console.log(input)
+    output.innerHTML = Math.round(input())
 }
