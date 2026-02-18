@@ -27,3 +27,13 @@ let roundANum = () => {
     }
     output.innerHTML = Math.round(input())
 }
+let ceilANum= ()=>{
+    if (!input()) {
+        toastError("Please enter a number.")
+        return
+    }
+    output.innerHTML = Math.ceil(input())
+}
+let floorANum = ()=>{
+    
+}
