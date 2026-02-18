@@ -64,3 +64,11 @@ let generateAStrongPass = () => {
     }
     output.innerHTML = pass
 }
+let convertingString= ()=>{
+    let num = "25.12345"
+    console.log(num);
+    console.log(typeof num);
+    let Cnum= Number(num)
+    console.log(Cnum);
+    console.log(typeof Cnum);
+}
