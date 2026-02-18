@@ -28,12 +28,17 @@ let roundANum = () => {
     output.innerHTML = Math.round(input())
 }
 let ceilANum= ()=>{
-    if (!input()) {
+    if (input() == "") {
         toastError("Please enter a number.")
         return
     }
     output.innerHTML = Math.ceil(input())
 }
 let floorANum = ()=>{
-    
+    if (input() == "") {
+        toastError("Please enter a number.")
+        return
+    }
+    output.innerHTML = Math.floor(input())
 }
+
