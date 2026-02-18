@@ -34,6 +34,7 @@ This assignment demonstrates common string methods and text formatting. It inclu
 This assignment practices numeric operations and `Math` methods. It rounds numbers, generates random numbers and dice values, creates strong passwords, controls decimal length with `toFixed()`, and calculates GST.
 
 - **Live Demo:** [https://aman-js5.netlify.app/](https://aman-js5.netlify.app/)
+
 - **Topics Covered:** `Math.round()`, `Math.ceil()`, `Math.floor()`, `Math.random()`, string-to-number conversion, `toFixed()`, percentage/GST calculations, input validation.
 
 ## 🛠️ Technologies Used
