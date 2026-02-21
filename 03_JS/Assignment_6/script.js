@@ -63,3 +63,9 @@ let greetUser = ()=>{
         alert("good night")
     }
 }
+let tellTime = ()=>{
+    setInterval(()=>{
+        today = new Date()
+        output.innerHTML = today.getHours()+":"+today.getMinutes()+":"+today.getSeconds() + ":" + today.getMilliseconds()
+    },1)
+}
