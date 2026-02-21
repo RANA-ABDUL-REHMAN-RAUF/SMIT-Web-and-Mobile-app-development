@@ -29,6 +29,10 @@ let getTodayName =()=>{
 let getDaysFromBorn = () => {
     if (!input()) {
         toastError("please give your date of birth")
+        return
     }
-    let 
+    let startDate = new Date()
+    let bornDate = new Date(input())
+    let DaysLived= Math.floor((startDate - bornDate) / (1000 * 60 * 60 * 24))
+    output.innerHTML= "You lived <span style='color:green;'>" +DaysLived+"</span> days"
 }
