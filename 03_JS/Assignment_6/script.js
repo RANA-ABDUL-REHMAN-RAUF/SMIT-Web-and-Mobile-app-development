@@ -53,3 +53,13 @@ let  getNextBirthday = () => {
 
     output.innerHTML = nextBirthday.getFullYear() +"/"+ month +"/"+ nextBirthday.getDate() + "  and " +days[nextBirthday.getDay()];
 }
+let greetUser = ()=>{
+    today = new Date().getHours()
+    if (today < 12) {
+        alert("good morning")
+    }else if (today < 16) {
+        alert("good evening")
+    }else {
+        alert("good night")
+    }
+}
