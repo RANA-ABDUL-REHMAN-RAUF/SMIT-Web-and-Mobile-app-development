@@ -1,4 +1,6 @@
-document.querySelector("#originalText").innerHTML = new Date()
+setInterval(()=>{
+    document.querySelector("#originalText").innerHTML = new Date()
+})
 let clearInput = () => {
     document.getElementById("inputText").value=""
 }
@@ -35,4 +37,19 @@ let getDaysFromBorn = () => {
     let bornDate = new Date(input())
     let DaysLived= Math.floor((startDate - bornDate) / (1000 * 60 * 60 * 24))
     output.innerHTML= "You lived <span style='color:green;'>" +DaysLived+"</span> days"
+}
+let  getNextBirthday = () => {
+    const bornDate = new Date(input())
+    const today = new Date();
+    const currentYear = today.getFullYear();
+
+    let nextBirthday = new Date(currentYear, bornDate.getMonth() , bornDate.getDate());
+
+    if (nextBirthday < today) {
+        nextBirthday = new Date(currentYear + 1, bornDate.getMonth(), bornDate.getDate());
+    }
+    let days= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+    let month= Number(nextBirthday.getMonth())+1
+
+    output.innerHTML = nextBirthday.getFullYear() +"/"+ month +"/"+ nextBirthday.getDate() + "  and " +days[nextBirthday.getDay()];
 }
