@@ -1,13 +1,13 @@
-setInterval(()=>{
+setInterval(() => {
     document.querySelector("#originalText").innerHTML = new Date()
 })
 let clearInput = () => {
-    document.getElementById("inputText").value=""
+    document.getElementById("inputText").value = ""
 }
-let clearOutput= () => {
-    document.getElementById("Output").innerHTML =""
+let clearOutput = () => {
+    document.getElementById("Output").innerHTML = ""
 }
-let toastError=(alert)=>{
+let toastError = (alert) => {
     Toastify({
         text: alert,
         duration: 3000,
@@ -16,16 +16,16 @@ let toastError=(alert)=>{
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: "linear-gradient(to right,rgb(255, 0, 0),rgb(0, 0, 0))",
+            background: "linear-gradient(to right,rgb(255, 0, 0),rgb(0, 0, 0))",
         },
-        onClick: function(){} // Callback after click
-      }).showToast();
+        onClick: function () { } // Callback after click
+    }).showToast();
 }
-let output=document.querySelector("#Output");
-let input=()=> document.querySelector("#inputText").value;
-let getTodayName =()=>{
+let output = document.querySelector("#Output");
+let input = () => document.querySelector("#inputText").value;
+let getTodayName = () => {
     let today = new Date();
-    let days= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     output.innerHTML = days[today.getDay()]
 }
 let getDaysFromBorn = () => {
@@ -35,37 +35,39 @@ let getDaysFromBorn = () => {
     }
     let startDate = new Date()
     let bornDate = new Date(input())
-    let DaysLived= Math.floor((startDate - bornDate) / (1000 * 60 * 60 * 24))
-    output.innerHTML= "You lived <span style='color:green;'>" +DaysLived+"</span> days"
+    let DaysLived = Math.floor((startDate - bornDate) / (1000 * 60 * 60 * 24))
+    output.innerHTML = "You lived <span style='color:green;'>" + DaysLived + "</span> days"
 }
-let  getNextBirthday = () => {
+let getNextBirthday = () => {
     const bornDate = new Date(input())
     const today = new Date();
     const currentYear = today.getFullYear();
 
-    let nextBirthday = new Date(currentYear, bornDate.getMonth() , bornDate.getDate());
+    let nextBirthday = new Date(currentYear, bornDate.getMonth(), bornDate.getDate());
 
     if (nextBirthday < today) {
         nextBirthday = new Date(currentYear + 1, bornDate.getMonth(), bornDate.getDate());
     }
-    let days= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-    let month= Number(nextBirthday.getMonth())+1
+    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    let month = Number(nextBirthday.getMonth()) + 1
 
-    output.innerHTML = nextBirthday.getFullYear() +"/"+ month +"/"+ nextBirthday.getDate() + "  and " +days[nextBirthday.getDay()];
+    output.innerHTML = nextBirthday.getFullYear() + "/" + month + "/" + nextBirthday.getDate() + "  and " + days[nextBirthday.getDay()];
 }
-let greetUser = ()=>{
+let greetUser = () => {
     today = new Date().getHours()
     if (today < 12) {
         alert("good morning")
-    }else if (today < 16) {
+    } else if (today < 16) {
         alert("good evening")
-    }else {
+    } else {
         alert("good night")
     }
 }
-let tellTime = ()=>{
-    setInterval(()=>{
-        today = new Date()
-        output.innerHTML = today.getHours()+":"+today.getMinutes()+":"+today.getSeconds() + ":" + today.getMilliseconds()
-    },1)
+let tellTime = () => {
+    let today = new Date()
+    let hours = today.getHours()
+    let minutes = today.getMinutes()
+    let seconds = today.getSeconds()
+    let milliseconds = today.getMilliseconds()
+    output.innerHTML = hours + ":" + minutes + ":" + seconds + ":" + milliseconds
 }
