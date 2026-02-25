@@ -49,6 +49,13 @@ Focuses on the `Date` object, handling functions with parameters, and utilizing 
 - **Live Demo:** [https://aman-js6.netlify.app/](https://aman-js6.netlify.app/)
 - **Topics Covered:** `new Date()`, `getDay()`, `getTime()`, `setInterval()`, Functions with return values, Input validation with Toastify.
 
+### Assignment 7 - JavaScript Conditionals & Loops (Chapters 39-42)
+
+Explores advanced control flow using `switch` statements, `while`, and `do-while` loops. Features interactive prompts and iterative logic demonstrations, ensuring students understand the nuances of different loop structures.
+
+- **Live Demo:** [https://aman-js7.netlify.app/](https://aman-js7.netlify.app/)
+- **Topics Covered:** `switch`, `while`, `do-while`, user prompts for iterative input, control flow logic.
+
 ## 🛠️ Technologies Used
 
 - **HTML5** - Structure and markup

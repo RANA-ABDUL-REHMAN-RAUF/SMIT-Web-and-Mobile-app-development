@@ -62,6 +62,10 @@ This assignment introduces client-side scripting with JavaScript to create inter
   - Focuses on the JavaScript `Date` object, functions with parameters/return values, and intervals (chapters 31-38). Includes age calculation, birthday countdowns, and real-time clocks.
   - **Live Demo:** [aman-js6.netlify.app](https://aman-js6.netlify.app/)
 
+- **Assignment 7: JavaScript Conditionals & Loops**
+  - Explores advanced control flow using `switch` statements, `while`, and `do-while` loops (chapters 39-42). Includes interactive prompts and iterative logic demonstrations.
+  - **Live Demo:** [aman-js7.netlify.app](https://aman-js7.netlify.app/)
+
 ## 🛠️ Technologies Used
 
 - **HTML5**
