@@ -42,3 +42,15 @@ let switchCase = () => {
     output.innerHTML = "Today is " + dayName;
 }
 
+let keepAsking = () => {
+    let userName = "";
+    do {
+        userName = prompt("Please enter your name (or type 'cancel' to stop):");
+    } while (userName === "" || (userName !== null && userName.toLowerCase() !== "cancel" && userName.trim() === ""));
+
+    if (userName === null || userName.toLowerCase() === "cancel") {
+        output.innerHTML = "Process cancelled.";
+    } else {
+        output.innerHTML = "Hello, " + userName + "!";
+    }
+}
