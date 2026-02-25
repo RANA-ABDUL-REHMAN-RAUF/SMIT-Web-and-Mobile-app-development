@@ -10,6 +10,10 @@ This assignment focuses on JavaScript control flow concepts from chapters 39-42,
 
 _Reference design showing the expected layout and button functionality of the assignment._
 
+## 🌐 Live Demo
+
+**Live URL:** [https://aman-js7.netlify.app/](https://aman-js7.netlify.app/)
+
 ## 📋 Features
 
 The application includes interactive buttons that showcase various JavaScript control flow techniques:
