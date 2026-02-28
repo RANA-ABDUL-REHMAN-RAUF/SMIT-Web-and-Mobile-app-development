@@ -56,6 +56,13 @@ Explores advanced control flow using `switch` statements, `while`, and `do-while
 - **Live Demo:** [https://aman-js7.netlify.app/](https://aman-js7.netlify.app/)
 - **Topics Covered:** `switch`, `while`, `do-while`, user prompts for iterative input, control flow logic.
 
+### Assignment 8 - JavaScript Objects & LocalStorage (Chapters 69-75)
+
+This assignment focuses on JavaScript Objects, properties, methods, constructors, and prototypes. It implements a user management system using `localStorage` to persist an array of users, which are then rendered into a dynamic, responsive table.
+
+- **Live Demo:** [https://aman-js8.netlify.app/](https://aman-js8.netlify.app/)
+- **Topics Covered:** Objects, Properties, Methods, Constructors, Prototypes, LocalStorage, JSON parsing, dynamic table generation.
+
 ## 🛠️ Technologies Used
 
 - **HTML5** - Structure and markup

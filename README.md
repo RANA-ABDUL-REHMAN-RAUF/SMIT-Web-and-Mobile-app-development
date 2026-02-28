@@ -66,6 +66,10 @@ This assignment introduces client-side scripting with JavaScript to create inter
   - Explores advanced control flow using `switch` statements, `while`, and `do-while` loops (chapters 39-42). Includes interactive prompts and iterative logic demonstrations.
   - **Live Demo:** [aman-js7.netlify.app](https://aman-js7.netlify.app/)
 
+- **Assignment 8: JavaScript Objects & LocalStorage**
+  - Focuses on objects, properties, methods, constructors, and prototypes (chapters 69-75). Implements a user record system using `localStorage` and dynamic table rendering.
+  - **Live Demo:** [aman-js8.netlify.app](https://aman-js8.netlify.app/)
+
 ## 🛠️ Technologies Used
 
 - **HTML5**
