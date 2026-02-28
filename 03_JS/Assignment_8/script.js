@@ -36,7 +36,6 @@ let addUser = () => {
         ID: randomId()
     };
 
-    // Store as an array
     let users = JSON.parse(localStorage.getItem("users")) || [];
     users.push(user);
     localStorage.setItem("users", JSON.stringify(users));
@@ -53,7 +52,6 @@ let addUser = () => {
         }
     }).showToast();
 
-    // Clear inputs
     document.getElementById("firstName").value = "";
     document.getElementById("lastName").value = "";
     document.getElementById("emailInput").value = "";
