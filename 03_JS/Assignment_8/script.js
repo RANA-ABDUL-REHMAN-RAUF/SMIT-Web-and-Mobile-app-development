@@ -50,3 +50,7 @@ let addUser = () => {
 let showImage = () => {
     output.innerHTML = "<img src='download.jpg'> "
 }
+let showUsersInConsole = () => {
+    let users = JSON.parse(localStorage.getItem("user")) || []
+    console.log(users)
+}
