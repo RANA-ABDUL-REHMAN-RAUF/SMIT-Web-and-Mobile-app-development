@@ -47,4 +47,6 @@ let addUser = () => {
         onClick: function () { } // Callback after click
     }).showToast();
 }
-   
+let showImage = () => {
+    output.innerHTML = "<img src='download.jpg'> "
+}
